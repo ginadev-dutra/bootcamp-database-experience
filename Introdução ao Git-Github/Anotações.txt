@@ -1,0 +1,69 @@
+- Criado em 2005. Linux desenvolveu o Linux de forma colaborativa. Todo software é feito por várias pessoas. O GitHub é da Microsoft.
+
+- Grafic user interface (interfase gráfica) X Common line interface (O Git é esse). Usado por linha de comando. 
+
+- Windows
+
+  dir: lista as pastas 
+
+  cd (change direction): 
+
+  cd /: leva para a base do diretório, o C:
+
+  cd ..: para voltar uma pasta
+
+  clear ou ctrl + L no linux e cls no windows: limpa
+
+  TAB no Windows = auto completar
+
+  mkdir (make directory) = crair uma pasta // windows e linux
+
+  echo + “frase”: só escreve no terminal uma frase que foi digitada // Windows e linux
+
+  \>: direciona o que eu foi escrito para um arquivo e cria o arquivo
+
+  del + “pasta”: deletar o que está dentro da pasta, mas não deleta a pasta
+
+  rmdir /S /Q (remove directory): remove a pasta e seu conteúdo  // só no windows
+
+  ls -a: para ver pasta oculta
+
+  git config –global user.name (configurar usuário)
+
+  git config –global user.email (configurar email)
+
+  git config --global --unset user.email : para alterar o e-mail
+
+  git config --list: traz a lista de todas as configurações 
+
+  mv: para mover um arquivo para dentro de uma pasta
+
+  git remote -v: lista os repositórios cadastrados
+
+  git push origin main: para fazer o push do repositório local para o remoto
+
+  git pull: para trazer o que foi alterado no remoto para o repositório local
+
+- Os 3 objetos básicos do git responsáveis pelo versionamento do código são Blobs, trees e commits.
+
+- Se criar o sha pelo comando git ou pelo openssl, vai gerar sha´s diferentes. O objeto blob contém metadados do git, que são o tipo do objeto, o tamanho da string, etc. O blog só guarda o sha.
+
+- As trees armazenam blobs. O blog é um bloco básico de composição, a tree armazena e aponta para tipos de blobs diferentes. A tree também contém metadados. Ela guarda um blob, o arquivo e seu nome. Ela é responsável por montar e estrutura de onde estão localizados os arquivos. Ela pode apontar para blobs ou outras trees. A tree também tem um sha e se algo judar dentro de qualquer arquivo que ela contém, altera o sha dela também. 
+
+- O commit é o objeto que junta tudo. Ele aponta para uma arvore, para um parente (último commit realizado antes dele), aponta para um autor e para uma mensagem. Os commits também possuem um sha1.
+
+- Vamos falar agora das maneiras seguras e necessárias para se inserir um código no github.
+
+  Chave SSH é uma forma de manter uma conexão segura e encriptada entre duas máquinas, o servidor do github e nossa máquina. Quando inserimos nossa chave pública no github, ele passa a conhecer nossa máquina e assim, poderemos enviar código sem precisar colocar senha.
+
+- Git add passa de untracked para staged (área que o arquivo está esperando).
+
+- Se mofificar o arquivo e der git add, muda para staged.
+
+- Se o arquivo não teve modificação e é removido, ele volta para untracked.
+
+- O arquivo em staged está esperando um commit. O commit retorna o arquivo para unmodified.
+
+  
+
+  
