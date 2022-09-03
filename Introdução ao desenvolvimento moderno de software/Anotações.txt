@@ -1,0 +1,29 @@
+- Sistema Desktop: sistemas instalados em computador.
+
+- Sistema Web: acessado remotamente pelo navegador.
+
+- UX Design (User Experience): cuida da experiência do usuário na plataforma. Faz pesquisa, protótipos, personas e cria os objetivos.
+
+- UI Design (User Interface): cria o que o usuário irá ver e utilizar o produto. Faz o design, tipografia, cores e layouts.
+
+- Modelo Cliente-Servidor: requerimento e resposta.
+
+- Desenvolvedor Front-end: programa a parte visual.
+
+- IDE: ambiente de desenvolvimento
+
+- Frameworks: é um facilitador. Traz diversas soluções pré-definidas. Ex: Angular para front-end, Vue para Javascript, Spring para Java dentre outras.
+
+- Desenvolvedor Back-end: cuida da lógica do negócio. Faz a ponte entre os dados e o que vem do navegador.
+
+- API: um intermediário que permite que dois aplicativos conversem entre si.
+
+- Desenvolvedor Full stack: faz o back e o front.
+
+- Quality Assurance: cuida da qualidade do código e de sua segurança.
+
+- Nuvem Pública: armazenamento de dados em nuvem.
+
+  
+
+  
