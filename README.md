@@ -32,6 +32,21 @@ Trata-se de modelagem de um e-commerce realizada na plataforma do Workbench util
 * Pagamento - pode ter sido cadastrado mais de uma forma de pagamento
 * Entrega - possui status e código de rastreio
 
+## Desafio 2
+### Projeto Ordem de Serviço em Oficina Mecânica
+Trata-se de modelagem de um Sistema de Controle e Gerenciamento de execução de ordens de serviço em uma oficina mecânica. Realizada na plataforma do Workbench utilizando o modelo Entidade Relacionamento. 
+
+### Narrativa oficina
+* Clientes levam veículos à oficina mecânica para serem consertados ou para passarem por revisões periódicas
+* Cada veículo é designado a uma equipe de mecânicos que identifica os serviços a serem executados e preenche uma OS com data de entrega
+* A partir da OS, calcula-se o valor de cada serviço, consultando uma tabela de referência de mão-de-obra
+* O valor de cada peça também irá compor a OS
+* O cliente autoriza a execução dos serviços
+* A mesma equipe avalia e executa os serviços
+* Os mecânicos possuem código, nome, endereço e especialidade
+* Cada OS possui nº, data de emissão, um valor, status e uma data para conclusão dos trabalhos
+* Uma OS pode ser composta por vários serviços e um mesmo serviço pode estar contido em mais de uma OS
+* Uma OS pode ter vários tipos de peça e uma peça pode estar presente em mais de uma OS
 
 
 
